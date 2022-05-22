@@ -1,0 +1,236 @@
+/* Menu principal */
+
+.contenedor{
+    display: grid;
+    grid-gap:0px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(13, auto);
+    grid-template-areas:"header                         header"
+                        "video-01                       video-01"
+                        "contenidoprincipal             contenidoprincipal"
+                        "boris-contenido                boris-foto"
+                        "ann-foto                       ann-contenido"
+                        "maceo-contenido                maceo-foto"
+                        "reel-01                        reel-01"    
+                        "nicole-foto                    nicole-contenido"
+                        "sven-contenido                 sven-foto"
+                        "charlotte-foto                 charlotte-contenido"
+                        "reel-02                        reel-02"
+                        "footer                         footer";
+                    
+}
+
+
+
+@media screen and (max-width: 960px){
+     .contenedor{
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(auto, auto);
+        grid-template-areas:
+        "header"
+        "video-01"
+        "contenidoprincipal"
+        "boris-contenido"     
+        "boris-foto"
+        "ann-contenido"             
+        "ann-foto"
+        "maceo-contenido"    
+        "maceo-foto"
+        "reel-01"   
+        "nicole-contenido"  
+        "nicole-foto"
+        "sven-contenido"        
+        "sven-foto"
+        "charlotte-contenido"   
+        "charlotte-foto"
+        "reel-02"
+        "footer";
+    } 
+
+}
+
+.contenedor .contenidoprincipal{
+    grid-area: contenidoprincipal;
+}
+
+.contenedor .header{
+    grid-area: header;
+}
+
+.contenedor .video-01{
+    grid-area: video-01;
+}
+
+.contenedor .video-02{
+    grid-area: video-02;
+}
+
+.contenedor .boris-contenido{
+    grid-area: boris-contenido;
+}
+.contenedor .boris-foto{
+    grid-area: boris-foto;
+}
+.contenedor .ann-contenido{
+    grid-area: ann-contenido;
+}
+.contenedor .ann-foto{
+    grid-area: ann-foto;
+}
+.contenedor .maceo-contenido{
+    grid-area: maceo-contenido;
+}
+.contenedor .maceo-foto{
+    grid-area: maceo-foto;
+}
+.contenedor .nicole-contenido{
+    grid-area: nicole-contenido;
+}
+.contenedor .nicole-foto{
+    grid-area: nicole-foto;
+}
+.contenedor .sven-contenido{
+    grid-area: sven-contenido;
+}
+.contenedor .sven-foto{
+    grid-area: sven-foto;
+}
+.contenedor .charlotte-contenido{
+    grid-area: charlotte-contenido;
+}
+.contenedor .charlotte-foto{
+    grid-area: charlotte-foto;
+}
+
+.contenedor .reel-01{
+    grid-area: reel-01;
+}
+
+.contenedor .reel-02{
+    grid-area: reel-02;
+}
+
+.contenedor .footer{
+    grid-area: footer;
+}
+
+
+/* Por DJ */
+
+.contenedor-por-dj{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:"menu       menu        menu"
+                        "contenido  contenido   foto-01"
+                        "contenido  contenido   vinilo"
+                        "albunes    foto-02     foto-03"
+                        "footer     footer      footer";
+}
+
+@media screen and (max-width: 1260px){
+    .contenedor-por-dj{
+       display: grid;
+       grid-gap: 20px;
+       grid-template-columns: repeat(2, 1fr);
+       grid-template-rows: repeat(auto, auto);
+   
+       grid-template-areas: "menu           menu"
+                            "contenido      contenido"
+                            "foto-01        vinilo"
+                            "albunes        albunes"
+                            "foto-02        foto-03"
+                            "footer         footer";
+   } 
+
+}
+
+@media screen and (max-width: 760px){
+    .contenedor-por-dj{
+       display: grid;
+       grid-gap: 20px;
+       grid-template-columns: repeat(1, 1fr);
+       grid-template-rows: repeat(auto, auto);
+   
+       grid-template-areas: "menu"
+                            "contenido"
+                            "foto-01"
+                            "vinilo"
+                            "albunes"
+                            "foto-02"
+                            "foto-03"
+                            "footer";
+   } 
+
+}
+
+
+.contenedor-por-dj .menu{
+    grid-area: menu;
+}
+
+.contenedor-por-dj .contenido{
+    grid-area: contenido;
+}
+
+.contenedor-por-dj .foto-01{
+    grid-area: foto-01;
+}
+
+.contenedor-por-dj .foto-02{
+    grid-area: foto-02;
+}
+
+.contenedor-por-dj .foto-03{
+    grid-area: foto-03;
+}
+
+.contenedor-por-dj .albunes{
+    grid-area: albunes;
+}
+
+.contenedor-por-dj .vinilo{
+    grid-area: vinilo;
+}
+
+.contenedor-por-dj .footer{
+    grid-area: footer;
+}
+
+
+
+
+
+
+/* FORMULARIO */
+
+.form{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:"header"
+                        "formulario"  
+                        "footer"
+
+}
+
+.form .header{
+    grid-area: header;
+}
+
+.form .formulario{
+    grid-area: formulario;
+}
+
+.form .footer{
+    grid-area: footer;
+}
+
+
+
+
+
