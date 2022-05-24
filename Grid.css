@@ -2,9 +2,9 @@
 
 .contenedor{
     display: grid;
-    grid-gap:0px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(13, auto);
+    grid-gap:10px;
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
+    grid-template-rows: repeat(12, auto);
     grid-template-areas:"header                         header"
                         "video-01                       video-01"
                         "contenidoprincipal             contenidoprincipal"
@@ -26,7 +26,7 @@
      .contenedor{
         display: grid;
         grid-gap: 0px;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, minmax(120px, 1fr));
         grid-template-rows: repeat(auto, auto);
         grid-template-areas:
         "header"
