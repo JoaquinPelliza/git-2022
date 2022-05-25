@@ -22,7 +22,7 @@
 
 
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 1080px){
      .contenedor{
         display: grid;
         grid-gap: 10px;
@@ -211,8 +211,9 @@
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
     grid-template-areas:"header"
+                        "presentacion"
                         "formulario"  
                         "footer"
 
@@ -231,6 +232,8 @@
 }
 
 
-
+.form .presentacion{
+    grid-area: presentacion;
+}
 
 
