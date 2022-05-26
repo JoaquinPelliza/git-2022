@@ -2,11 +2,10 @@
 
 .contenedor{
     display: grid;
-    grid-gap:10px;
+    grid-gap:0px;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(12, auto);
+    grid-template-rows: repeat(10, auto);
     grid-template-areas:"header                         header"
-                        "video-01                       video-01"
                         "contenidoprincipal             contenidoprincipal"
                         "boris-contenido                boris-foto"
                         "ann-foto                       ann-contenido"
@@ -15,7 +14,6 @@
                         "nicole-foto                    nicole-contenido"
                         "sven-contenido                 sven-foto"
                         "charlotte-foto                 charlotte-contenido"
-                        "reel-02                        reel-02"
                         "footer                         footer";
                     
 }
@@ -25,12 +23,11 @@
 @media screen and (max-width: 1080px){
      .contenedor{
         display: grid;
-        grid-gap: 10px;
+        grid-gap: 0px;
         grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(18, auto);
+        grid-template-rows: repeat(16, auto);
         grid-template-areas:
         "header"
-        "video-01"
         "contenidoprincipal"
         "boris-contenido"     
         "boris-foto"
@@ -45,7 +42,6 @@
         "sven-foto"
         "charlotte-contenido"   
         "charlotte-foto"
-        "reel-02"
         "footer";
     } 
 
