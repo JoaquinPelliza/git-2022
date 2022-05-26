@@ -9,20 +9,16 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-@viewport{
-    zoom: 1.0;
-    width: device-width;
-}
-
-
 .contenedor,
 .contenedor-por-dj,
 .form
 {
     width: 100%;
-    max-width: 2000px;
-    margin: 0px auto;
-    
+    margin: auto;    
+}
+
+img{
+    width: 100%;
 }
 
 .logo-portada{
@@ -75,25 +71,7 @@ body {
     background-color:white;
     padding: 20px;
     border-radius: 4px;
-    display:flex;
-    align-items: center;
-    justify-content:center;
-    flex-flow: row wrap;
-    justify-content: space-around;
 }
-
- /* .contenedor .video-01,
-.contenedor .video-02
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: auto;
-    margin: 0px;
-    padding: 0px;
-    max-height: 200px;
-} */
-
 
 .contenedor .header,
 .contenedor-por-dj .menu,
@@ -106,7 +84,6 @@ body {
     justify-content: center;
     min-height: 100px;
 }
-
 
 .contenedor .footer,
 .contenedor-por-dj .footer,
@@ -143,17 +120,7 @@ body {
     border: white;
 }} */
 
-img{
-    max-width: 600px;
-    max-height: 600px;
-    min-width: none;
-    min-height: none;
-}
 
-.Contenedor .Fotos {
-    background-color: black;
-    color: white;
-}
 
 .Contenedor .Footer {
     background-color: black;
@@ -533,7 +500,7 @@ input[type=submit]:hover {
 
 
 /* carousel-container */
-
+/* 
 .carousel-container{
     width: 53%;
     margin: auto;
@@ -569,4 +536,4 @@ input[type=submit]:hover {
     color: white;
     opacity: 0.8;
     cursor: pointer;
-}
+} */
