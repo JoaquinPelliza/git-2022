@@ -21,6 +21,10 @@ img{
     width: 100%;
 }
 
+iframe{
+    width: 100%;
+}
+
 .logo-portada{
     max-width: 120px;
     max-height: 120px;
@@ -34,6 +38,7 @@ img{
     animation: fadeInDown;
     animation-duration: 3s;
 }
+
 
 
 .contenedor > div,
@@ -475,41 +480,3 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-
-/* carousel-container */
-
-.carousel-container{
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-    border: 5px solid black;
-    position: relative;
-    max-width: 500px;
-}
-
-.carousel-slide{
-    display: flex;
-    width: 100%; 
-}
-
-#prevBtn{
-    position: absolute;
-    top: 50%;
-    z-index: 10;
-    left: 5%;
-    font-size: 30px;
-    color: white;
-    opacity: 0.8;
-    cursor: pointer;
-}
-
-#nextBtn{
-    position: absolute;
-    top: 50%;
-    z-index: 10;
-    right: 5%;
-    font-size: 30px;
-    color: white;
-    opacity: 0.8;
-    cursor: pointer;
-}
