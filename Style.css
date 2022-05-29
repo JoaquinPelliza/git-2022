@@ -11,7 +11,7 @@ body {
 
 .contenedor,
 .contenedor-por-dj,
-.form
+.fo
 {
     width: 100%;
     margin: auto;    
@@ -80,7 +80,7 @@ iframe{
 
 .contenedor .header,
 .contenedor-por-dj .menu,
-.form .header
+.fo .header
 {
     background-color: black;
     color: white; 
@@ -92,7 +92,7 @@ iframe{
 
 .contenedor .footer,
 .contenedor-por-dj .footer,
-.form .footer
+.fo .footer
 {
     background-color: black;
     color: white;
@@ -232,13 +232,13 @@ iframe{
 
 
 /* Header formulario */
-.form .header {
+.fo .header {
     overflow: hidden;
     background-color: black;
     padding: 0% 50px;
   }
   
-.form .header a {
+.fo .header a {
     float: right;
     color: white;
     text-align: center;
@@ -247,13 +247,13 @@ iframe{
     font-size: 17px;
 }
 
-.form .header a:hover {
+.fo .header a:hover {
     background-color:white;
     color: black;
 }
 
 @media screen and (max-width: 1260px){
-    .form .header {
+    .fo .header {
         overflow: hidden;
         background-color: black;
         padding: 0% 50px;
@@ -262,7 +262,7 @@ iframe{
         text-align: center;
       }
       
-    .form .header a {
+    .fo .header a {
         float: right;
         color: white;
         text-align: center;
@@ -271,7 +271,7 @@ iframe{
         font-size: 17px;
     }
     
-    .form .header a:hover {
+    .fo .header a:hover {
         background-color:white;
         color: black;
     }
@@ -373,13 +373,13 @@ iframe{
 
 
 /* Header formulario */
-.form .footer {
+.fo .footer {
     overflow: hidden;
     background-color: black;
     padding: 0% 50px;
   }
   
-.form .footer a {
+.fo .footer a {
     float: right;
     color: white;
     text-align: center;
@@ -388,13 +388,13 @@ iframe{
     font-size: 17px;
 }
 
-.form .footer a:hover {
+.fo .footer a:hover {
     background-color:white;
     color: black;
 }
 
 @media screen and (max-width: 1260px){
-    .form .footer {
+    .fo .footer {
         overflow: hidden;
         background-color: black;
         padding: 0% 50px;
@@ -403,7 +403,7 @@ iframe{
         text-align: center;
       }
       
-    .form .footer a {
+    .fo .footer a {
         float: right;
         color: white;
         text-align: center;
@@ -412,7 +412,7 @@ iframe{
         font-size: 17px;
     }
     
-    .form .footer a:hover {
+    .fo .footer a:hover {
         background-color:white;
         color: black;
     }
@@ -421,8 +421,8 @@ iframe{
 
 /* formulario */
 
-.form .formulario,
-.form .presentacion
+.fo .form,
+.fo .presentacion
 {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
@@ -433,7 +433,7 @@ iframe{
     color: rgba(0, 0, 0);
 }
 
-.form .cajita {
+.fo .cajita {
     display:flex;
     align-items: center;
     justify-content:center;

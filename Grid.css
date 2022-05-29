@@ -201,7 +201,7 @@
 
 /* FORMULARIO */
 
-.form{
+.fo{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(1, 1fr);
@@ -213,20 +213,20 @@
 
 }
 
-.form .header{
+.fo .header{
     grid-area: header;
 }
 
-.form .formulario{
+.fo .formulario{
     grid-area: formulario;
 }
 
-.form .footer{
+.fo .footer{
     grid-area: footer;
 }
 
 
-.form .presentacion{
+.fo .presentacion{
     grid-area: presentacion;
 }
 

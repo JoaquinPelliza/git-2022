@@ -17,7 +17,7 @@
   <title>Formulario</title>
 </head>
 
-<body class="form">
+<body class="fo">
 
 
   <!-- Header -->
@@ -48,73 +48,57 @@
     </div>
 
   <!-- Formulario -->
-  <div class="formulario">
+    <form action="" method="post" id="form">
+      <div class="form">
+        
+        <div class="grupo">
+          <label for="">Nombre</label>
+          <input type="text" id="fname" name="" placeholder="Tu nombre....">
+        </div>
 
-    <form action="action_page.php">
-      <div>
-        <label for="fname">Nombre</label>
+        <div class="grupo">
+          <label for="">Apellido</label>
+         <input type="text" id="lname" name="" placeholder="Tu Apellido....">
+        </div>
+
+        <div class="grupo">
+          <label for="">Mail</label>
+          <input type="text" id="Mail" name="" placeholder="Mail....">
+        </div>
+
+        <div class="grupo">
+          <label for="">Linkedin</label>
+          <input type="text" id="lkedin" name="" placeholder="linkedin....">
+        </div>
+
+        <div class="grupo">
+          <label for="country">Pais</label>
+          <select id="country" name="country">
+            <option value="Argentina">Argentina</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="Alemania">Alemania</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Chile">Chile</option>
+            <option value="España">España</option>
+            <option value="Otro">Otro</option>
+          </select>
+        </div>
+
+        <div class="grupo">
+          <label for="">Contanos un poco de vos</label>
+          <textarea id="subject" name="subject" placeholder="Escribinos algo...." style="height:200px"></textarea>
+        </div>
+
+        <button type="submit" class="button">Enviar</button>
+        <br>
+        <p class="warnings" id="warnings"></p>
+
+
       </div>
-
-      <div class="cajita">
-        <input type="text" id="fname" name="firstname" placeholder="Tu nombre....">
-      </div>
-
-      <div>
-        <label for="lname">Apellido</label>
-      </div>
-
-      <div class="cajita">
-        <input type="text" id="lname" name="lastname" placeholder="Tu Apellido....">
-      </div>
-
-      <div>
-        <label for="Mail">Mail</label>
-      </div>
-
-      <div class="cajita">
-        <input type="text" id="Mail" name="Mail" placeholder="Mail....">
-      </div>
-
-      <div>
-        <label for="linkedin">Linkedin</label>
-      </div>
-
-      <div class="cajita">
-        <input type="text" id="lkedin" name="linkedin" placeholder="linkedin....">
-      </div>
-
-      <div>
-        <label for="country">Pais</label>
-      </div>
-
-      <div class="cajita">
-        <select id="country" name="country">
-          <option value="Argentina">Argentina</option>
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-          <option value="Alemania">Alemania</option>
-          <option value="Brasil">Brasil</option>
-          <option value="Chile">Chile</option>
-          <option value="España">España</option>
-          <option value="Otro">Otro</option>
-        </select>
-      </div>
-
-      <div>
-        <label for="subject">Contanos un poco de vos</label>
-      </div>
-
-      <div class="cajita">
-        <textarea id="subject" name="subject" placeholder="Escribinos algo...." style="height:200px"></textarea>
-      </div>
-
-      <div>
-        <input type="submit" value="Submit">
-      </div>
-
     </form>
-  </div>
+    <script src="app.js"></script>
 
   <!-- Footer -->
   <footer class="footer">
